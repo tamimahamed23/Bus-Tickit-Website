@@ -174,11 +174,11 @@
 
 <!-- Coupon Section End Here-->
 
-<section>
-    <div id="ena-sit-container">
+<section class="bg-[#F7F8F8] w-full">
+    <div id="ena-sit-container" class="w-[90%] m-auto">
         <h2 class="text-2xl font-semibold sm:text-3xl md:lg:text-5xl xl:text-6xl py-10 px-5 text-center">P.H Paribahan</h2>
         <p class="text-xl font-extralight text-center  px-5 py-5">Yes, you can run unit tests and view the results directly within the app.br <br> The integrated testing features allow for a streamlined .</p>
-
+          <!-- start here ena sit content -->
         <div id="ena-sit-content" class=" px-5 grid grid-cols-12 bg-white border rounded-2xl">
                     <div id="sit-content" class=" p-10 grid col-span-12 sm:col-span-12 md:col-span-8 lg:col-span-8 xl:col-span-8 ">
                       <!-- left seat start here -->
@@ -201,18 +201,18 @@
 
                        <!--- time and place div start here -->
 
-                       <div id="time-place" class="border py-10 px-2 my-3 rounded-2xl bg-[#F7F8F8]">
-                        <div class="flex flex-row justify-between items-center p-5 ">
+                       <div id="time-place" class="border rounded-xl p-12 bg-red-100 my-10">
+                        <div class="flex flex-row justify-between items-center p-5  border border-y-gray-400  border-x-red-300 rounded xl">
                            <p>Route</p>
                            <h4 class="font-semibold text-xl">Dhaka - Sylhet</h4>
                         </div>
 
-                        <div class="flex flex-row justify-between items-center p-5 ">
+                        <div class="flex flex-row justify-between items-center p-5  border border-y-gray-400  border-x-red-300 rounded xl">
                            <p>Departure Time</p>
                            <h4 class="font-semibold text-xl">9:00 PM</h4>
                         </div>
 
-                        <div class="flex md:flex-col lg:flex-row xl:flex-row sm:flex-col flex-col gap-3 justify-between items-center">
+                        <div class="flex md:flex-col lg:flex-row xl:flex-row sm:flex-col flex-col gap-3 justify-between items-center border border-y-gray-400 p-5  border-x-red-300 rounded xl">
                            <h3 class="btn font-semibold">Boarding Point - Laxmipur</h3>
                            <h3 class="btn font-semibold">Dropping Point - Bogura</h3>
                            <h3 class="btn font-semibold">Est. Time - 11 Hour</h3>
@@ -240,6 +240,154 @@
                     </div>
                     <!--- Seat Price Div End Here -->
         </div>
+
+        <!-- End Here Ena Site Content-->
+
+
+           <!-- my last section start here -->
+
+          
+
+           <!-- my last section end here -->
+
+           
+
+
+
+
+    </div>
+</section>
+
+<section class="py-10">
+    <div id="ticket-container" class="grid grid-cols-12">
+        <div id="sit" class="grid col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6">
+              <h2 class="text-2xl my-10 font-serif font-semibold sm:text-2xl lg:text-3xl md:text-5xl">Select Your Seat</h2>
+
+              <div id="sit" class="flex justify-center items-center lg:gap-5 md:gap-5 sm:gap-5 xl:gap-5 gap-5 my-10">
+                  <div id="left-seat" class="border p-5 flex flex-col gap-2 justify-center items-center rounded-xl shadow-2xl bg-[url(images/card-img.jpg)] bg-cover bg-no-repeat bg-center text-white">
+                            <img src="images/seat.jpg" alt="" class=" w-24 rounded-full border-[10px]  ">
+                         <h3 class="text-xl font-semibold my-2 sm:text-2xl lg:text-3xl md:text-4xl xl:text-4xl"> Seat Left-Side <span class="text-[#1dd100] font-extrabold">A</span></h3>
+                         <p class="text-lg font-extralight md:text-xl lg:text-2x xl:text-2xl">We Have 2 Seat Her
+                         </p>
+                         <h2 class="font-semibold">What Seat Do You Want?</h2>
+                         <div id="seat-price">
+                            <h2 class="font-semibold">Seat Price <span id="fixt-price" class="text-orange-400">55O <span class="text-purple-500">Tk</span></span></h2>
+                         </div>
+                         <h4>Classic</h4>
+                         <div>
+                            <button class="add-sit  border p-3 rounded-xl border-[#1dd100] font-semibold hover:bg-[#1dd100] w-24">Seat A1</button>
+                            <button class="add-sit  border p-3 rounded-xl border-[#1dd100] font-semibold hover:bg-[#1dd100] w-24">Seat A2</button>
+
+                         </div>
+                  </div>
+
+                  <div id="right-seat" class="border p-5 flex flex-col gap-2 justify-center items-center rounded-xl  shadow-2xl bg-[url(images/card-img.jpg)] bg-cover bg-no-repeat bg-center text-white">
+                    <img src="images/seat.jpg" alt="" class=" w-24 rounded-full border-[10px] ">
+                    <h3 class="text-xl font-semibold my-2 sm:text-2xl lg:text-3xl md:text-4xl xl:text-4xl"> Seat Right-Side <span class="text-[#1dd100] font-extrabold">A</span></h3>
+                    <p class="text-lg font-extralight md:text-xl lg:text-2x xl:text-2xl">We Have 2 Seat Her 
+                    </p>
+                    <h2 class="font-semibold">What Seat Do You Want?</h2>
+                    <div id="seat-price">
+                       <h2 class="font-semibold">Seat Price <span id="fixt-price" class="text-orange-400">55O <span class="text-purple-500">Tk</span></span></h2>
+                    </div>
+                    <h4>Classic</h4>
+                    <div>
+                       <button class="add-sit  border p-3 rounded-xl border-[#1dd100] font-semibold hover:bg-[#1dd100] w-24">Seat A3</button>
+                       <button class="add-sit  border p-3 rounded-xl border-[#1dd100] font-semibold hover:bg-[#1dd100] w-24">Seat A4</button>
+
+                    </div>
+                  </div>
+              </div>
+
+              <div id="sit" class="flex justify-center items-center gap-5 ">
+                <div id="left-seat" class="border p-5 flex flex-col gap-2 justify-center items-center rounded-xl shadow-2xl bg-[url(images/card-img.jpg)] bg-cover bg-no-repeat bg-center text-white">
+                          <img src="images/seat.jpg" alt="" class=" w-24 rounded-full border-[10px]  ">
+                       <h3 class="text-xl font-semibold my-2 sm:text-2xl lg:text-3xl md:text-4xl xl:text-4xl"> Seat Left-Side <span class="text-[#1dd100] font-extrabold">B</span></h3>
+                       <p class="text-lg font-extralight md:text-xl lg:text-2x xl:text-2xl">We Have 2 Seat Her
+                       </p>
+                       <h2 class="font-semibold">What Seat Do You Want?</h2>
+                       <div id="seat-price">
+                          <h2 class="font-semibold">Seat Price <span id="fixt-price" class="text-orange-400">55O <span class="text-purple-500">Tk</span></span></h2>
+                       </div>
+                       <h4>Classic</h4>
+                       <div>
+                          <button class="add-sit  border p-3 rounded-xl border-[#1dd100] font-semibold hover:bg-[#1dd100] w-24">Seat B1</button>
+                          <button class="add-sit  border p-3 rounded-xl border-[#1dd100] font-semibold hover:bg-[#1dd100] w-24">Seat B2</button>
+
+                       </div>
+                </div>
+
+                <div id="right-seat" class="border p-5 flex flex-col gap-2 justify-center items-center rounded-xl  shadow-2xl bg-[url(images/card-img.jpg)] bg-cover bg-no-repeat bg-center text-white">
+                  <img src="images/seat.jpg" alt="" class=" w-24 rounded-full border-[10px] ">
+                  <h3 class="text-xl font-semibold my-2 sm:text-2xl lg:text-3xl md:text-4xl xl:text-4xl"> Seat Right-Side <span class="text-[#1dd100] font-extrabold">B</span></h3>
+                  <p class="text-lg font-extralight md:text-xl lg:text-2x xl:text-2xl">We Have 2 Seat Her 
+                  </p>
+                  <h2 class="font-semibold">What Seat Do You Want?</h2>
+                  <div id="seat-price">
+                     <h2 class="font-semibold">Seat Price <span id="fix-price" class="text-orange-400">550 <span class="text-purple-500">Tk</span></span></h2>
+                  </div>
+                  <h4>Classic</h4>
+                  <div>
+                     <button class="add-sit  border p-3 rounded-xl border-[#1dd100] font-semibold hover:bg-[#1dd100] w-24">Seat B3</button>
+                     <button class="add-sit  border p-3 rounded-xl border-[#1dd100] font-semibold hover:bg-[#1dd100] w-24">Seat B4</button>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+         <!--- Seat Function -->
+        <div id="sit-function" class="grid col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6 justify-center items-center">
+          <h2 class="text-2xl my-10 font-serif font-semibold sm:text-2xl lg:text-3xl md:text-5xl">  See All About Of Our Tickets </h2>
+
+          <div id="show-all">
+                
+            <div class=" w-[100%] p-5 rounded-md bg-purple-100 my-10">
+                <div class=" flex justify-around p-5">
+                    <h2 class="font-semibold  md:text-lg lg:text-lg xl:text-2xl">Seat <span id="sell-seat">0</span></h2>
+                    <h2 class="font-semibold  md:text-lg lg:text-lg xl:text-2xl"> Class  Select</h2>
+                    <h2 class="font-semibold  md:text-lg lg:text-lg xl:text-2xl">Seat Price</h2>
+                </div>
+
+                <div class=" flex justify-around p-5">
+                    <h2 class="font-semibold  md:text-lg lg:text-lg xl:text-2xl"><span id="seat-name"></span></h2>
+                    <h2 class="font-semibold  md:text-lg lg:text-lg xl:text-2xl"><span id="seat-class"></span></h2>
+                    <h2 class="font-semibold  md:text-lg lg:text-lg xl:text-2xl"><span id="select-price"></span></h2>
+                </div>
+
+
+                
+
+                <div id="total-price" class="text-xl font-extrabold my-5 md:text-2xl lg:text-4xl xl:text-5xl">
+                    <h2>Total Price <span id="total">0</span></h2>
+                </div>
+
+
+                <div id="apply-coupon" >
+                    <label for="input" class="text-xl font-semibold md-text-2xl lg:text-3xl xl:text-3xl py-5">Give Your Coupon Code</label><br>
+                    <input type="text" placeholder="You Have A Coupon Code?" class="p-5 my-5 bg-purple-100 rounded-md">
+                    <button  class="text-xl border p-5 rounded-md bg-[#1dd100] text-white font-semibold">Apply Coupon</button>
+                </div>
+
+
+                <div id="grand-total-price" class="text-xl font-extrabold my-5 md:text-2xl lg:text-4xl xl:text-5xl" >
+                    <h2>Grand Total Price <span id="grand-total">0</span></h2>
+                </div>
+            </div>
+          </div>
+
+
+          <div id="form" class="border p-5 rounded-xl my-5">
+            <form action="form">
+                <label for="name" class="text-xl font-semibold md-text-2xl lg:text-3xl xl:text-3xl py-5">Passenger Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" class="font-semibold p-5 bg-purple-50 w-[100%] my-5"> <br>
+                <label for="number" class="text-xl font-semibold md-text-2xl lg:text-3xl xl:text-3xl py-5">Passenger Phone</label><br>
+                <input type="number" name="number" id="number" placeholder="Enter Your Number" class="font-semibold p-5 bg-purple-50 w-[100%] my-5"><br>
+                <label for="email" class="text-xl font-semibold md-text-2xl lg:text-3xl xl:text-3xl py-5">Email Id</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" class="font-semibold p-5 bg-purple-50 w-[100%] my-5"><br>
+                <button class="font-semibold p-5 bg-[#1dd100] w-[100%] my-5 rounded-md">Submit Here</button>
+            </form>
+          </div>
+        </div> 
     </div>
 </section>
 
